@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER  CREATIVE AREA
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV KIBANA_VERSION 4.0.2
+ENV KIBANA_VERSION 4.1.0
 ENV KIBANA_PATH /opt/kibana
 
 ADD https://download.elasticsearch.org/kibana/kibana/kibana-${KIBANA_VERSION}-linux-x64.tar.gz /tmp/
